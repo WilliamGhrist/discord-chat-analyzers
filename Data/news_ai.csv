@@ -1,0 +1,126 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"1102964030588584006","the_meg2","05/02/2023 7:53 PM","Recent interview with co-founder and CEO of OpenAI, Sam Altman. https://podcasts.apple.com/us/podcast/honestly-with-bari-weiss/id1570872415?i=1000610848256","",""
+"793086934817439744","profg","05/03/2023 6:32 PM","https://twitter.com/emollick/status/1653827161223213056?t=qsVT7zYbnQwOv41IAcjQdw&s=19","",""
+"793086934817439744","profg","05/04/2023 4:10 AM","Interesting thread on the new _code interpreter_ mode in GPT 4
+https://twitter.com/nlw/status/1653936651226292225?t=MnZnhB7_il4r0t4bNw1LjA&s=19","","🤯 (1)"
+"793086934817439744","profg","05/04/2023 4:35 AM","Bing chat getting upgrades... https://twitter.com/nonmayorpete/status/1654018106543554561?t=ueCyArLMamV67ZGdHMxDRQ&s=19","",""
+"793086934817439744","profg","05/05/2023 6:09 AM","thread of latest research on graphics from Nvidia: https://twitter.com/rpnickson/status/1654120017674539012?s=20","",""
+"793086934817439744","profg","05/05/2023 2:17 PM","This team used some new literature-trained LLM to write an epilogue to the great Gatsby. They feed in the entire book in the prompt. https://twitter.com/sam_havens/status/1654505452703719424?t=O8DHj1gOgT-BwCJ2KujO5A&s=19","","🤯 (2)"
+"793086934817439744","profg","05/11/2023 11:31 AM","For the lit majors... https://twitter.com/replicatehq/status/1656283115583856643?t=LNzPe7mUHTIOrIM3vuYM7g&s=19","","📚 (1)"
+"793086934817439744","profg","05/11/2023 1:50 PM","fantastic update from anthropic/claude: https://twitter.com/AnthropicAI/status/1656700154190389248?s=20","","👀 (1)"
+"793086934817439744","profg","05/13/2023 3:38 AM","Time to pay the $20... 
+https://twitter.com/OpenAI/status/1657128759659745280?t=oojm7l1OGYjwPrcH5FNnHg&s=19","","✅ (1)"
+"257893429634269184","aelisheneithlon","05/13/2023 1:27 PM","https://openai.com/research/language-models-can-explain-neurons-in-language-models","",""
+"348491142561529860","i.wnt.cookie","05/13/2023 2:15 PM","https://stability.ai/blog/stable-animation-sdk Has anyone given this a go?","","👀 (2)"
+"793086934817439744","profg","05/17/2023 5:25 AM","This is gonna hit huggingface soon... https://twitter.com/stevenhoi/status/1658270266424975361?t=wtidyKQXRoHUaNVBSkAnjA&s=19","","👀 (1)"
+"1102964030588584006","the_meg2","05/18/2023 6:02 AM","https://neurosciencenews.com/ai-radiology-chatgpt-23252/","",""
+"793086934817439744","profg","05/19/2023 12:51 PM","not endorsed: have not tried, be careful etc, but... https://twitter.com/marktenenholtz/status/1659529387837112321?t=8A85ZiTY6pT8uolPd9GTxg&s=19","",""
+"793086934817439744","profg","05/21/2023 6:39 AM","you've all just been given interns: what will you do with them?
+https://www.oneusefulthing.org/p/on-boarding-your-ai-intern","",""
+"793086934817439744","profg","05/22/2023 9:39 AM","Gonna be seeing a lot of these types of papers over the next year... https://twitter.com/ylecun/status/1660632951388880896?s=19","",""
+"793086934817439744","profg","05/22/2023 4:37 PM","dang, another paper/software combo from Meta today... https://twitter.com/ylecun/status/1660732998155640833?t=W2vY9nUZ3id4aeVsRs9g-A&s=19","",""
+"793086934817439744","profg","05/23/2023 4:22 AM","One of the nice tricks Meta used to train their voice to text multi lingual model was to train off of reasons from texts common to many times and cultures. https://twitter.com/EMostaque/status/1660794642776858628?t=4a0htb-zdWWHCjiPdN8mDg&s=19","",""
+"554314117565906955","daphne#0844","05/23/2023 12:58 PM","https://www.quantamagazine.org/some-neural-networks-learn-language-like-humans-20230522/","",""
+"554314117565906955","daphne#0844","05/23/2023 12:59 PM","love love love quanta articles on ai","",""
+"554314117565906955","daphne#0844","05/23/2023 1:05 PM","https://www.quantamagazine.org/the-physics-principle-that-inspired-modern-ai-art-20230105/","","✅ (2),🔥 (2)"
+"793086934817439744","profg","05/24/2023 4:29 AM","I've no love for Wolfram (the pseudo-intellectual) but the company is putting out some quality stuff ATM...
+https://twitter.com/stephen_wolfram/status/1661028442274447363?t=79Ajm2hHMu9J9w2GCo3qWA&s=19","","😮 (2)"
+"793086934817439744","profg","05/25/2023 4:48 PM","i have not tried this (not sure it's publicly available yet), but this appears significant.","","🤯 (1)"
+"793086934817439744","profg","05/25/2023 4:48 PM","https://twitter.com/arankomatsuzaki/status/1661541064367386624?s=20","",""
+"998629057044414494","azzzeret","05/25/2023 5:03 PM","not me reading this as Massive APES","","🔥 (2)"
+"793086934817439744","profg","05/29/2023 7:01 PM","I have not tried this, but the idea of using GPT to redo file systems is 🍟https://twitter.com/localghost/status/1663274587860393984?t=l7h9u43pGq8dRETcHKz26g&s=19","",""
+"379147619403825163","vicky#8212","05/29/2023 9:14 PM","not chat gpt-specific, just general ai, but i thought this was super cool! canva (and adobe photoshop is releasing a beta version), but you can use their magic edit brush tool to ai-generate art to edit images! it's super cool i used it to fix my hair for a profile picture. couldn't find the og news article i found it from but heres a yt link: https://youtu.be/Fb9bniSgv-4","",""
+"379147619403825163","vicky#8212","05/29/2023 9:26 PM","sometimes it's pretty good, sometimes it leads to some questionable results, but in general it's fun. here is me asking it to change stuff in the picture of alex morgan. in the first one i asked it to change her shirt to one with her face on it, and in the other i asked it to turn her head into cake.","https://cdn.discordapp.com/attachments/1101985788339687560/1112914889015562271/Screenshot_2023-05-29_at_9.24.43_PM.png,https://cdn.discordapp.com/attachments/1101985788339687560/1112914889380483103/Screenshot_2023-05-29_at_9.24.58_PM.png",""
+"793086934817439744","profg","05/30/2023 3:24 AM","Good thread on where the next set of training days might come from... https://twitter.com/mathemagic1an/status/1662896309588881408?t=T9odjcMVHv9L-Nwo_6Yy0A&s=19","",""
+"793086934817439744","profg","05/30/2023 2:15 PM","this is stupid but i love it... https://twitter.com/NickADobos/status/1663557627572543497?s=20","",""
+"1103054651034714223",".jasonzhao","05/31/2023 6:10 AM","Caltech/Stanford/UT Austin team created a LLM-powered Minecraft avatar","","⚔️ (3)"
+"1103054651034714223",".jasonzhao","05/31/2023 6:10 AM","https://arxiv.org/abs/2305.16291","","👀 (1)"
+"388745550142636032","W!11#4907","05/31/2023 4:35 PM","This could make training your own personal models much more accessible 
+https://huggingface.co/blog/4bit-transformers-bitsandbytes","","🤍 (1)"
+"368058986064510987","purps1638","06/01/2023 12:20 AM","https://twitter.com/WilliamAEden/status/1664093602505707520?cxt=HHwWgMDSpZKUhpguAAAA","",""
+"368058986064510987","purps1638","06/01/2023 12:20 AM","A testament to how fast things have been moving in the last 10-12 months.","",""
+"793086934817439744","profg","06/01/2023 4:23 AM","game theory with LLMs -- repeated prisoner's dilemma, etc.  interesting. 
+https://arxiv.org/abs/2305.16867","",""
+"793086934817439744","profg","06/03/2023 8:18 AM","ooooh... i think i want to try this one out:
+https://twitter.com/LinusEkenstam/status/1664940984881364993?s=20","",""
+"793086934817439744","profg","06/05/2023 4:31 AM","Oh, this looks significant... 
+https://twitter.com/MoonDevOnYT/status/1665526478564368384?t=Nep4vBqVQuRM-IxOREKouw&s=19","",""
+"793086934817439744","profg","06/05/2023 4:31 AM","Langchain + GDrive with a little bit of python","",""
+"793086934817439744","profg","06/05/2023 4:32 AM","Can interrogate all the docs in your Google drive","",""
+"793086934817439744","profg","06/05/2023 4:41 AM","Have not tried this out yet, but... 👀
+https://twitter.com/brickroad7/status/1665452923461967872?t=U8V7S3biKlRG_NqZlAN7_g&s=19","",""
+"793086934817439744","profg","06/06/2023 5:02 AM","Apparently, one can now generate artistic QR codes that actually work... LoL
+https://twitter.com/dahbiahmed/status/1665778398084431872?t=LWVjDHmpSaqCr1RRdq9rfA&s=19","","😮 (1)"
+"793086934817439744","profg","06/06/2023 5:02 AM","https://twitter.com/_akhaliq/status/1665829429371625476?t=NnYjECleLZ9O8Bwc8OHhBg&s=19","",""
+"554314117565906955","daphne#0844","06/08/2023 2:10 PM","https://www.washingtonpost.com/business/interactive/2023/artificial-intelligence-tech-rapid-advances/","",""
+"554314117565906955","daphne#0844","06/08/2023 2:16 PM","https://arstechnica.com/gadgets/2023/04/generative-ai-is-cool-but-lets-not-forget-its-human-and-environmental-costs/","",""
+"554314117565906955","daphne#0844","06/08/2023 2:16 PM","this article was written by a researcher at huggingface btw","","🤗 (1)"
+"793086934817439744","profg","06/11/2023 5:07 AM","Google releasing some very nice developer tools with data privacy guarantees...https://twitter.com/minchoi/status/1667599476196888577?t=b2rMZH3fe44qTDdOSn1HxA&s=19","",""
+"793086934817439744","profg","06/13/2023 3:27 PM","👀👀👀https://twitter.com/OpenAI/status/1668668732347129856?t=2sCeLgVFf9fxRNB7E6-rfQ&s=19","","🔥 (1)"
+"793086934817439744","profg","06/14/2023 5:03 AM","New video translation paper dropped on 🤗
+https://twitter.com/_akhaliq/status/1668808284575342594?t=-Psjp6Hd-SJvaV0yT2AY8g&s=19","",""
+"998629057044414494","azzzeret","06/17/2023 6:46 AM","https://arxiv.org/abs/2306.08997 GPT-4 was given 4,550 novel questions representing the entire “MIT Mathematics and EECS undergraduate curriculum, including problem sets, midterms, and final exams.” These questions were not in the training data. Out of the box, GPT-4 scored 90%. With good prompts, it scored 100%.Good prompts included the technique of asking the AI “to identify experts in the field, generate answers as if the experts wrote them, and combine the experts’ answers by collaborative decision-making.” Pretty cool.","","🧠 (1)"
+"793086934817439744","profg","06/17/2023 7:09 AM","hmmm... https://twitter.com/radamar/status/1669805138222120960?s=20","","😮 (1)"
+"793086934817439744","profg","06/17/2023 7:11 AM","i've seen a lot of back-and-forth on this in the past 24 hours. 
+my impression: this is legit.  
+GPT's are not simply text-predictors; nor are they regurgitating pre-trained answers.
+we have built a thinking machine.
+(that said, there's _much_ more to be done, and people are quibbling about the details of how this experiment was set up -- it will be quaint to look back on this in 5 years)","","🤍 (1)"
+"793086934817439744","profg","06/21/2023 4:27 AM","Looks like this could be very useful for the social sciences...
+https://twitter.com/splitgraph/status/1671188526853914624?t=fiSu9bO-tl-iuloLjjfKbw&s=19","",""
+"793086934817439744","profg","06/21/2023 4:29 AM","Within a year there will be top-shelf models that you can run locally on a laptop; phones soon to follow. Gonna be🔥https://twitter.com/Teknium1/status/1671336110684012545?t=6ryb1lDwu0VrboTlTz14_g&s=19","",""
+"793086934817439744","profg","06/26/2023 7:25 PM","I am now an expert in Photoshop... https://twitter.com/robdewinter/status/1673026038778011648?t=FZpsI4P0SZ5CKJmb4jbUiw&s=19","",""
+"793086934817439744","profg","07/11/2023 3:58 PM","**claude alert!**
+https://twitter.com/AlphaSignalAI/status/1678841733289848834?s=20","",""
+"998629057044414494","azzzeret","07/11/2023 4:22 PM","do you think trying it out immediately is worth it if i have gpt-4 rn?","",""
+"793086934817439744","profg","07/11/2023 4:59 PM","i don't know... i'm probably going to try it out & will let you know what i find out?","",""
+"998629057044414494","azzzeret","07/11/2023 5:04 PM","perf, thanks","",""
+"793086934817439744","profg","07/12/2023 5:12 AM","i've submitted an application for API access to claude.  we'll see -- they are surely getting massively swamped right now.","","💯 (1)"
+"793086934817439744","profg","07/12/2023 9:20 AM","claude-2 allows for easy upload & interrogation of pdfs -- think papers, etc.  really good tool for research.","","🤍 (1)"
+"998629057044414494","azzzeret","07/12/2023 9:28 AM","does it also have something similar to code interpreter?","",""
+"793086934817439744","profg","07/12/2023 9:29 AM","not sure... i'm still learning... try for yourself! it's free to use (if you're not using an API) though sometimes access-limited","","🤍 (1)"
+"793086934817439744","profg","07/18/2023 10:22 AM","uh-oh... you're gonna start seeing more & more articles about such issues: https://www.nytimes.com/2023/07/18/technology/openai-chatgpt-facial-recognition.html","","👀 (1)"
+"793086934817439744","profg","07/18/2023 10:28 AM","https://twitter.com/sayashk/status/1671576723580936193?s=20","","👀 (1)"
+"1006240983807181050","eskat.","07/18/2023 10:36 AM","Cybersecurity 💸💸💸","","🥲 (1)"
+"793086934817439744","profg","07/18/2023 1:48 PM","Llama-v2 just hit. open source; ok for commercial; different sizes. 
+big news!","",""
+"793086934817439744","profg","07/19/2023 6:37 AM","you can access llama-2 here and try it out without installing anything:
+https://llama.perplexity.ai/","",""
+"998629057044414494","azzzeret","07/19/2023 7:34 AM","do you think it’s better than claude?","",""
+"793086934817439744","profg","07/19/2023 9:02 AM","No. It's almost as good as GPT 3.5. but it is free and open source and ok for commercial purposes.","",""
+"793086934817439744","profg","07/19/2023 9:03 AM","You can run even the big 70b parameter model of 🦙 V2 on a stand-alone machine (with a lot of memory)
+https://twitter.com/Yampeleg/status/1681409926004916246?t=23F_2Eo7Df0BRG7ItR_-YA&s=19","","🦙 (1)"
+"998629057044414494","azzzeret","07/19/2023 10:08 AM","ill try it out once i run out of my (still superior) tokens and see what outputs this llama thing spits out","",""
+"793086934817439744","profg","07/19/2023 10:23 AM","at this time, for most purposes:
+GPT-4+code-interp > GPT-4 > Claude-2 > Bing+GPT > GPT-3.5 > Llama-2 > Google-Bard > Llama-1","","🪄 (1)"
+"793086934817439744","profg","07/19/2023 10:24 AM","(there are a bunch of other models -- Falcon, Pi, etc -- that i don't know where to put in the ranking)","",""
+"793086934817439744","profg","07/19/2023 4:05 PM","There is so much coming... https://twitter.com/fablesimulation/status/1681352904152850437?t=bPT3oo2Z04FLojCKlguQPQ&s=19","",""
+"793086934817439744","profg","07/20/2023 4:02 AM","Message rate limits for GPT-4 have been raised by a factor of eight!
+_(for some people at some times, sob!)_","","🤍 (1)"
+"793086934817439744","profg","07/20/2023 2:47 PM","OMG, and i say this very carefully, OMfrikkinG
+_this opens up a completely new design space_
+you need to try this out rn
+https://twitter.com/OfficialLoganK/status/1682080196101283852?s=20","","😮 (2),💯 (1),🤍 (1)"
+"793086934817439744","profg","07/20/2023 2:48 PM","imagine having a pre-training prompt that says you're a XXX student taking courses in XXX and you already know XXX, but you are trying to master XXX.  or, more localized version linking to a course syllabus and saying what week you are on, so that it can explain new things in familiar context. 
+_this is absolutely huge_","",""
+"793086934817439744","profg","07/20/2023 5:33 PM","aw man...
+https://twitter.com/AndrewMayne/status/1682094882708668416?s=20","",""
+"998629057044414494","azzzeret","07/20/2023 7:00 PM","have you tried experimenting with this yet? is there a way to customize multiple different setups?","",""
+"793086934817439744","profg","07/20/2023 8:11 PM","not yet but sooooooon....","",""
+"793086934817439744","profg","07/22/2023 5:15 AM","For my fellow android users, an official OpenAI phone app is available for pre-installation
+https://twitter.com/OfficialLoganK/status/1682505207287017472?t=0RCkvd5sW6UyUZRP4XVU9Q&s=19","",""
+"793086934817439744","profg","07/22/2023 5:16 AM","(not yet ready to install, but you can pre -install... as always, dyor & be careful of installing apps)","",""
+"793086934817439744","profg","07/22/2023 5:47 PM","oll https://twitter.com/lauriewired/status/1682825103594205186?t=kZn_b75JzUYmw2P2pWI44w&s=19
+😅","",""
+"793086934817439744","profg","07/27/2023 3:01 PM","This is kinda nuts https://twitter.com/DThompsonDev/status/1684533030809903106?t=PKapkz01NvyHRx1vkyp2Xw&s=19","","🤍 (1)"
+"793086934817439744","profg","08/04/2023 11:49 AM","Lots of rumors about gpt-5 being trained... Here is some info on the GPU load it will take... https://twitter.com/lpolovets/status/1686545776246390784?t=f0vSliJ6D9MNwAF9NCVRfw&s=19
+
+This is why Nvidia stock is so high...","",""
+"793086934817439744","profg","08/04/2023 4:08 PM","Every week a new development... https://twitter.com/OfficialLoganK/status/1687151401523089408?t=EGXD2WE6NWdH2a3M4CuwKw&s=19","",""
+"998629057044414494","azzzeret","08/09/2023 9:01 PM","","https://cdn.discordapp.com/attachments/1101985788339687560/1139000574076006410/IMG_8767.png",""
+"998629057044414494","azzzeret","08/09/2023 9:02 PM","very cool","",""
+"998629057044414494","azzzeret","08/09/2023 9:02 PM","(i wish there was a speed-up button for globalization tho)","",""
+"1006240983807181050","eskat.","08/09/2023 9:13 PM","vpn...","",""
+"793086934817439744","profg","08/10/2023 8:01 AM","OpenAI blocks VPNs, or at least I have not found a good way to circumvent...","",""
+"793086934817439744","profg","08/10/2023 8:01 AM","You may recall a few months back when this sims-like LLM simulation came out. It is now open source... Have fun! 
+https://twitter.com/DrJimFan/status/1689315683958652928?t=hpVfBoSNoUHjhOWHPa1PMQ&s=19","",""
