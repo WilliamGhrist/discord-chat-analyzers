@@ -1,9 +1,24 @@
-import sys
-sys.path.append('../Code')
-from Code import helper 
-from Code import graphing
-from Code.graphing import Create_Histogram, Create_BoxPlot
+#----------------------------------------------------
+# TODO
+#----------------------------------------------------
+# None
 
+#----------------------------------------------------
+# GLOBAL VARIABLES
+#----------------------------------------------------
+# None
+
+#----------------------------------------------------
+# IMPORTS
+#----------------------------------------------------
+import sys
+sys.path.append('../Code/Modules/')
+import helper
+import graphing
+
+#----------------------------------------------------
+# MAIN
+#----------------------------------------------------
 def main():
     helper.st.title("Discord Analyser")
 
@@ -13,10 +28,12 @@ def main():
         df = helper.pd.read_csv(uploaded_file)
 
         if helper.st.button("Display activity levels"):
-            Create_Histogram(df)
+            graphing.create_histogram(df)
+            # matplotlib doesnt have a gui interface, but we can get around that by graphing the function, then saving it
+            # and then displaying that saved png!
         
         if helper.st.button("Display average word counts"):
-            Create_BoxPlot(df)
+            graphing.create_boxplot(df)
 
 
 if __name__ == "__main__":
