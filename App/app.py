@@ -29,12 +29,16 @@ def main():
 
         if helper.st.button("Display activity levels"):
             graphing.create_histogram(df)
-            # matplotlib doesnt have a gui interface, but we can get around that by graphing the function, then saving it
-            # and then displaying that saved png!
+            helper.st.image('Average_Posts.png')
         
         if helper.st.button("Display average word counts"):
             graphing.create_boxplot(df)
+            helper.st.image('Average_Word_Count.png')
 
+
+        if helper.st.button("Display average post reception"):
+            graphing.______(df)
+            helper.st.image('______.png')
 
 if __name__ == "__main__":
     main()
