@@ -29,16 +29,15 @@ def main():
 
         if helper.st.button("Display activity levels"):
             graphing.create_histogram(df)
-            helper.st.image('Average_Posts.png')
+            helper.st.image('../Images/Average_Posts.png')
         
         if helper.st.button("Display average word counts"):
             graphing.create_boxplot(df)
-            helper.st.image('Average_Word_Count.png')
-
+            helper.st.image('../Images/Average_Word_Count.png')
 
         if helper.st.button("Display average post reception"):
-            graphing.______(df)
-            helper.st.image('______.png')
+            graphing.create_reaction_chart(df)
+            helper.st.image('../Images/Average_Post_Reactions.png')
 
 if __name__ == "__main__":
     main()
