@@ -1,4 +1,9 @@
 #----------------------------------------------------
+# TODO
+#----------------------------------------------------
+# 
+
+#----------------------------------------------------
 # GLOBAL VARIABLES
 #----------------------------------------------------
 # None
@@ -14,10 +19,14 @@ import helper
 def create_histogram(user_csv: helper.pd.DataFrame) -> None:  
     
     """ 
-    Plot the frequency of user posts.
+    Plots the frequency of user posts.
 
+    user_CSV -> helper.pd.DataFrame
+        The given data (in Pandas DataFrame format) to graph on
+
+    Return -> None
+        Saves file as .png in Images folder.
     """
-
     df = user_csv
 
     author_post_counts = df['Author'].value_counts()
@@ -30,15 +39,25 @@ def create_histogram(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Posts.png")
     
-
+    # In general, you want to programmatically save your files
+    # do this for the other function as well!
+    # Also, you don't want any white spaces in your folder names "Data Visualization". Some systems (for eg. CLI/powershell)
+    # cannot parse white spaces without additional formatting, which is a big headache.
+    # Folder names without white spaces just overall make your program the most compatible with everything
+    # Also, by convention python file names will use underscores instead of dashes (snake case) "Average-Word" vs "Average_Word"
+    # helper.plt.show()
+    
 
 def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
-    
-    """
-    Plot the average word counts by user across all posts.
+    """ 
+    Plots the average words per user.
 
+    user_CSV -> helper.pd.DataFrame
+        The given data (in Pandas DataFrame format) to graph on
+
+    Return -> None
+        Saves file as .png in Images folder.
     """
-    
     df = user_csv
 
     df['WordCount'] = df['Content'].apply(lambda x: len(str(x).split()))
@@ -59,18 +78,19 @@ def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
 
 
 def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
+    """ 
+    Plots the average reactions per user.
 
-    """
-    Chart the average level of community engagement users posts get.
+    user_CSV -> helper.pd.DataFrame
+        The given data (in Pandas DataFrame format) to graph on
 
+    Return -> None
+        Saves file as .png in Images folder.
     """
     df = user_csv
 
     def total_reaction_count(reaction_str: str) -> int:
-        """ 
-        Calculate the total count of reactions in a given string.
-    
-        """
+        
         if not isinstance(reaction_str, str):
             return 0
         
@@ -103,7 +123,6 @@ def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.gca().invert_yaxis()  
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Post_Reactions.png")
-
 
 
 #----------------------------------------------------
