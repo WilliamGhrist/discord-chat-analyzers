@@ -1,7 +1,7 @@
 #----------------------------------------------------
 # TODO
 #----------------------------------------------------
-# None
+# 
 
 #----------------------------------------------------
 # GLOBAL VARIABLES
@@ -17,6 +17,7 @@ import helper
 # FUNCTION BODY
 #----------------------------------------------------
 def create_histogram(user_csv: helper.pd.DataFrame) -> None:  
+    
     """ 
     Plots the frequency of user posts.
 
@@ -26,7 +27,6 @@ def create_histogram(user_csv: helper.pd.DataFrame) -> None:
     Return -> None
         Saves file as .png in Images folder.
     """
-
     df = user_csv
 
     author_post_counts = df['Author'].value_counts()
@@ -38,6 +38,14 @@ def create_histogram(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.xticks(rotation=45)
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Posts.png")
+    
+    # In general, you want to programmatically save your files
+    # do this for the other function as well!
+    # Also, you don't want any white spaces in your folder names "Data Visualization". Some systems (for eg. CLI/powershell)
+    # cannot parse white spaces without additional formatting, which is a big headache.
+    # Folder names without white spaces just overall make your program the most compatible with everything
+    # Also, by convention python file names will use underscores instead of dashes (snake case) "Average-Word" vs "Average_Word"
+    # helper.plt.show()
     
 
 def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
@@ -67,7 +75,7 @@ def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Word_Count.png")
 
-    # helper.plt.show()
+
 
 def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
     """ 
@@ -81,7 +89,8 @@ def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
     """
     df = user_csv
 
-    def total_reaction_count(reaction_str):
+    def total_reaction_count(reaction_str: str) -> int:
+        
         if not isinstance(reaction_str, str):
             return 0
         
