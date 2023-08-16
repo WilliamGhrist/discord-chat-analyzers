@@ -1,10 +1,7 @@
 #----------------------------------------------------
 # TODO
 #----------------------------------------------------
-
-# If you want to enrich the graphing functionality, can you think of other types of user inputs?
-# Maybe user wants to graph top 5 posters instead of seeing ALL posters?
-# You can also directly ask your dad what kinds of visuals + optional configs he'd want!
+# None
 
 #----------------------------------------------------
 # GLOBAL VARIABLES
@@ -20,18 +17,6 @@ import helper
 # FUNCTION BODY
 #----------------------------------------------------
 def create_histogram(user_csv: helper.pd.DataFrame) -> None:  
-    
-    # by strict convention Python, caps are reserved for Classes
-    # Create_Histogram -> create_histogram
-    # if you give caps to your functions, other ppl will wrongly interpret your functions as somethign they are not
-
-    # variables in python also follow snake_case (user_CSV -> user_csv)
-    # global or constant variables are the only varaibles that are all capitalized (eg. PI = 3.1415 or GLOBAL_USERNAME = "will")
-
-    # liekwise, ive added type hints (user_csv -> user_csv: helper.pd.DataFrame) to make it clear what formats are acceptable
-    # return hint which is the "-> None" hwich tells the user what this function outputs
-    
-
     """ 
     Plots the frequency of user posts.
 
@@ -54,18 +39,17 @@ def create_histogram(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Posts.png")
     
-    # In general, you want to programmatically save your files
-    # do this for the other function as well!
-    # Also, you don't want any white spaces in your folder names "Data Visualization". Some systems (for eg. CLI/powershell)
-    # cannot parse white spaces without additional formatting, which is a big headache.
-    # Folder names without white spaces just overall make your program the most compatible with everything
-    # Also, by convention python file names will use underscores instead of dashes (snake case) "Average-Word" vs "Average_Word"
-    # helper.plt.show()
-    
 
 def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
-    
-    # df = helper.pd.read_csv(user_CSV)
+    """ 
+    Plots the average words per user.
+
+    user_CSV -> helper.pd.DataFrame
+        The given data (in Pandas DataFrame format) to graph on
+
+    Return -> None
+        Saves file as .png in Images folder.
+    """
     df = user_csv
 
     df['WordCount'] = df['Content'].apply(lambda x: len(str(x).split()))
@@ -86,7 +70,15 @@ def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
     # helper.plt.show()
 
 def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
+    """ 
+    Plots the average reactions per user.
 
+    user_CSV -> helper.pd.DataFrame
+        The given data (in Pandas DataFrame format) to graph on
+
+    Return -> None
+        Saves file as .png in Images folder.
+    """
     df = user_csv
 
     def total_reaction_count(reaction_str):
@@ -122,8 +114,6 @@ def create_reaction_chart(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.gca().invert_yaxis()  
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Post_Reactions.png")
-
-
 
 
 #----------------------------------------------------
