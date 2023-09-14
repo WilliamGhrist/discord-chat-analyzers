@@ -39,14 +39,6 @@ def create_histogram(user_csv: helper.pd.DataFrame) -> None:
     helper.plt.tight_layout()
     helper.plt.savefig(f"../Images/Average_Posts.png")
     
-    # In general, you want to programmatically save your files
-    # do this for the other function as well!
-    # Also, you don't want any white spaces in your folder names "Data Visualization". Some systems (for eg. CLI/powershell)
-    # cannot parse white spaces without additional formatting, which is a big headache.
-    # Folder names without white spaces just overall make your program the most compatible with everything
-    # Also, by convention python file names will use underscores instead of dashes (snake case) "Average-Word" vs "Average_Word"
-    # helper.plt.show()
-    
 
 def create_boxplot(user_csv: helper.pd.DataFrame) -> None:
     """ 
