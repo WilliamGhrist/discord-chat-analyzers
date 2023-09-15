@@ -41,7 +41,7 @@ install requirments
 
 ```
 pip install matplotlib
-pip install steramlit
+pip install streamlit
 pip install pandas
 ```
 
